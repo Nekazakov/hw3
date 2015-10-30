@@ -1,0 +1,134 @@
+body{
+	background-color: #F9F9F9;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px 55px 60px 40px;
+	background-color: #FFFFFF;
+	border-left: 2px solid #DCDCDC;
+	border-right: 2px solid #DCDCDC;
+	overflow: auto;
+}
+
+/*	HEADER */
+
+header{
+	margin-bottom: 40px;
+}
+.logo{
+	margin-bottom: 40px;
+}
+.menu{
+	height: 40px;
+	overflow: hidden;
+    background: rgb(94,94,94); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(94,94,94,1) 0%, rgba(66,65,65,1) 100%, rgba(66,65,65,1) 100%, rgba(41,137,216,1) 100%, rgba(32,124,202,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(94,94,94,1)), color-stop(100%,rgba(66,65,65,1)), color-stop(100%,rgba(66,65,65,1)), color-stop(100%,rgba(41,137,216,1)), color-stop(100%,rgba(32,124,202,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(94,94,94,1) 0%,rgba(66,65,65,1) 100%,rgba(66,65,65,1) 100%,rgba(41,137,216,1) 100%,rgba(32,124,202,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(94,94,94,1) 0%,rgba(66,65,65,1) 100%,rgba(66,65,65,1) 100%,rgba(41,137,216,1) 100%,rgba(32,124,202,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(94,94,94,1) 0%,rgba(66,65,65,1) 100%,rgba(66,65,65,1) 100%,rgba(41,137,216,1) 100%,rgba(32,124,202,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(94,94,94,1) 0%,rgba(66,65,65,1) 100%,rgba(66,65,65,1) 100%,rgba(41,137,216,1) 100%,rgba(32,124,202,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+}
+.menu ul{
+	height: 100%;
+}
+.menu li{
+	display: inline-block;
+	height: 100%;
+}
+.menu li a:hover{
+    background: rgb(72,72,72); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(72,72,72,1) 0%, rgba(42,42,42,1) 100%, rgba(32,124,202,1) 100%, rgba(41,137,216,1) 100%, rgba(32,124,202,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(72,72,72,1)), color-stop(100%,rgba(42,42,42,1)), color-stop(100%,rgba(32,124,202,1)), color-stop(100%,rgba(41,137,216,1)), color-stop(100%,rgba(32,124,202,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(72,72,72,1) 0%,rgba(42,42,42,1) 100%,rgba(32,124,202,1) 100%,rgba(41,137,216,1) 100%,rgba(32,124,202,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(72,72,72,1) 0%,rgba(42,42,42,1) 100%,rgba(32,124,202,1) 100%,rgba(41,137,216,1) 100%,rgba(32,124,202,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(72,72,72,1) 0%,rgba(42,42,42,1) 100%,rgba(32,124,202,1) 100%,rgba(41,137,216,1) 100%,rgba(32,124,202,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(72,72,72,1) 0%,rgba(42,42,42,1) 100%,rgba(32,124,202,1) 100%,rgba(41,137,216,1) 100%,rgba(32,124,202,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#484848', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+    border-left: 1px solid #848484;
+	border-right: 1px solid #848484;
+}
+
+.menu a{
+	display: block;
+	border: 1px solid rgba(0, 0, 0, 0);
+	height: 100%;
+	text-decoration: none;
+	color: white;
+	padding: 10px 25px 0;	
+}
+
+
+/* CONTAINER */
+
+.left-menu{
+	float: left;
+	width: 240px;
+	height: 246px;
+	border: 1px solid #C9C9C9;
+	overflow: hidden;
+}
+.left-menu li{
+	height: 40px;
+	border-bottom: 1px solid #C9C9C9;
+	overflow: hidden;
+}
+.left-menu li:last-child{
+	border:none;
+}
+.left-menu a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	color: #666363;
+	padding: 15px 0 10px 25px;
+}
+.left-menu a:hover{
+	background-color: #F9F9F9;
+	border-left: 10px solid rgba(0, 0, 0, 0);
+}
+.content{
+	width: 675px;
+	float: right;
+	margin-bottom: 60px;
+}
+.content .bike{
+	width: 100%;
+	border: 1px solid #C9C9C9;
+	text-align: center;
+}
+.content article{
+	margin-left: 20px;
+	margin-top: 40px;
+	color: #343434;
+	line-height: 1.5;
+}
+
+/*FOOTER */
+
+footer{
+	clear: both;
+	height: 40px;
+	background-color: #E2E2E2;
+}
+footer li{
+	display: inline-block;
+	height: 100%;
+}
+footer li a {
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	color: #3E3E3E;
+	padding: 10px 25px 0;
+}
+footer li:last-child{
+	float: right;
+	margin: 10px 25px 0;
+}
+footer li a:hover{
+	text-decoration: underline;
+}
